@@ -1,11 +1,7 @@
-# Diploma_Generic Portal-of a Professor
- Design and Implementation of a Generic Portal of a University Professor
- 
- 
+# Design and Implementation of a Generic Portal of a University Professor
+ The site is made with the help of WordPress, easy to install, contains preinstalled plugins, as well as special scripts to automatically update scientific publications.
 
- 
- 
- # Installation (check releases tab)
+ ## Installation (check releases tab)
  
 **Standard password and login: admin admin, don't forget to change them after installation.**
  
