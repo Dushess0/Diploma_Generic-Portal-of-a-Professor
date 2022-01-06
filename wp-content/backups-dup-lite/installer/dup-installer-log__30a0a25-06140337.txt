@@ -1,0 +1,733 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:18:00
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.3                                 |7.3.21
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-01-06 14:03:37
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 1.4.3
+DB__________________: 8.0.26
+DB TABLES___________: 36
+DB ROWS_____________: 1,284
+DB FILE SIZE________: 2.87MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) PHP/7.3.21
+DOC ROOT____________: "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/Diploma_Generic-Portal-of-a-Professor/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor/20211223_package_[HASH]_20220106140337_archive.zip"
+SIZE________________: 82.09MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor/20211223_package_[HASH]_20220106140337_archive.zip"
+SIZE________________: 82.09MBFile timestamp set to Current: 2022-01-06 14:18:05
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 02:18:05 - RUNTIME: 5.2297 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:18:28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.31 -- Build Server: 8.0.26
+FILE SIZE:	dup-database__[HASH].sql (2.16MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.31] is less than the build version [8.0.26].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	36
+RENAMED TABLES:	0
+QUERIES RAN:	325
+
+wp_commentmeta: (4)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_eum_logs: (0)
+wp_law_commentmeta: (0)
+wp_law_comments: (1)
+wp_law_duplicator_packages: (1)
+wp_law_links: (0)
+wp_law_options: (156)
+wp_law_postmeta: (122)
+wp_law_posts: (48)
+wp_law_term_relationships: (7)
+wp_law_term_taxonomy: (2)
+wp_law_termmeta: (0)
+wp_law_terms: (2)
+wp_law_usermeta: (25)
+wp_law_users: (1)
+wp_law_wpda_org_chart_popup_theme: (1)
+wp_law_wpda_org_chart_theme: (1)
+wp_law_wpda_org_chart_tree: (1)
+wp_links: (0)
+wp_newsletter: (1)
+wp_newsletter_emails: (0)
+wp_newsletter_sent: (0)
+wp_newsletter_stats: (0)
+wp_newsletter_user_logs: (0)
+wp_options: (206)
+wp_postmeta: (355)
+wp_posts: (160)
+wp_snippets: (5)
+wp_term_relationships: (56)
+wp_term_taxonomy: (16)
+wp_termmeta: (0)
+wp_terms: (16)
+wp_usermeta: (60)
+wp_users: (3)
+Removed '33' cache/transient rows
+
+INSERT DATA RUNTIME: 1.2010 sec.
+STEP-2 COMPLETE @ 02:18:30 - RUNTIME: 1.2272 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:18:35
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Antoni Ligęza"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/srv/www/ligeza"
+path_new______________: "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+siteurl_______________: "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+url_old_______________: "https://dushess.net/ligeza"
+url_new_______________: "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_eum_logs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_law_commentmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_law_comments"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_duplicator_packages"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_law_options"__________________________________[ROWS:   156][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_postmeta"_________________________________[ROWS:   122][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_posts"____________________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_term_relationships"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_term_taxonomy"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_termmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_law_terms"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_usermeta"_________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_users"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_wpda_org_chart_popup_theme"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_wpda_org_chart_theme"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_law_wpda_org_chart_tree"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_newsletter_emails"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_sent"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_user_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   206][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   355][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_snippets"_____________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/srv/www/ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  2:"\/srv\/www\/ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  3:"%2Fsrv%2Fwww%2Fligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  4:"\srv\www\ligeza" =================================> "C:/ProgramData/wamp/www/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  5:"\\srv\\www\\ligeza" ==============================> "C:\/ProgramData\/wamp\/www\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  6:"%5Csrv%5Cwww%5Cligeza" ===========================> "C%3A%2FProgramData%2Fwamp%2Fwww%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH  7:"//dushess.net/ligeza" ============================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  8:"\/\/dushess.net\/ligeza" =========================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH  9:"%2F%2Fdushess.net%2Fligeza" ======================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 10:"//www.dushess.net/ligeza" ========================> "//localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 11:"\/\/www.dushess.net\/ligeza" =====================> "\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 12:"%2F%2Fwww.dushess.net%2Fligeza" ==================> "%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+	SEARCH 13:"https://localhost/Diploma_Generic-Portal-of-a-Professor" => "http://localhost/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 14:"https:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor" => "http:\/\/localhost\/Diploma_Generic-Portal-of-a-Professor"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor" => "http%3A%2F%2Flocalhost%2FDiploma_Generic-Portal-of-a-Professor"
+--------------------------------------
+SCANNED:	Tables:36 	|	 Rows:1252 	|	 Cells:9103 
+UPDATED:	Tables:3 	|	 Rows:135 	|	 Cells:135 
+ERRORS:		0 
+RUNTIME:	0.330800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:18:35 - RUNTIME: 0.4773 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
