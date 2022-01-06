@@ -5,7 +5,7 @@
 
  
  
- #Installation (check releases tab)
+ # Installation (check releases tab)
  
 **Standard password and login: admin admin, don't forget to change them after installation.**
  
